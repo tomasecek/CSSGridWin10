@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Icomoon;
+    src: url("../fonts/icomoon.woff");
+}
+html {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* --- icons --- */
+.start-panel__icons .icon::before {
+    font-family: Icomoon;
+    font-size: 12pt;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.start-panel__icons .icon {
+    width: 100%;
+    height: 50px;
+    font-size: 0;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.start-panel__icons .icon:hover {
+    background-color: rgba(50,50,50,0.9);
+}
+
+.icon--hamburger::before {
+    content: "\e9bd";
+}
+.icon--person::before {
+    content: "\e971";
+}
+.icon--documents::before {
+    content: "\e924";
+}
+.icon--images::before {
+    content: "\e90d";
+}
+.icon--settings::before {
+    content: "\e994";
+}
+.icon--power::before {
+    content: "\e9b6";
+}
+
+.app-block li a {
+    position: relative;
+}
+.app-block li a::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+.app-block li a::after {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    font-family: Icomoon;
+}
+
+.app-block .app--word::before {
+    background-color: darkblue;
+}
+.app-block .app--word::after {
+    content: "\eae1";
+}
+.app-block .app--excel::before {
+    background-color: darkgreen;
+}
+.app-block .app--excel::after {
+    content: "\eae2";
+}
+.app-block .app--chrome::before {
+    background-color: black;
+}
+.app-block .app--chrome::after {
+    content: "\ead9";
+}
+.app-block .app--opera::before {
+    background-color: crimson;
+}
+.app-block .app--opera::after {
+    content: "\eade";
+}
+.app-block .app--steam::before {
+    background-color: darkmagenta;
+}
+.app-block .app--steam::after {
+    content: "\eaad";
+}
+.app-block .app--edge::before {
+    background-color: rgb(2, 122, 197);
+}
+.app-block .app--edge::after {
+    content: "\eadc";
+}
+
+/* icon set application-icons */
+.start-panel__grid a {
+    position: relative;
+}
+.start-panel__grid a::before {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24pt;
+    font-family: Icomoon;
+    transform: translate(-50%, -50%);
+}
+.start-panel__grid .app--word {
+    background-color: darkblue;
+}
+.start-panel__grid .app--excel {
+    background-color: darkgreen;
+}
+.start-panel__grid .app--chrome {
+    background-color: black;
+}
+.start-panel__grid .app--opera {
+    background-color: crimson;
+}
+.start-panel__grid .app--edge {
+    background-color: rgb(2, 122, 197);
+}
+.start-panel__grid .app--music {
+    background-color: orange;
+}
+.start-panel__grid .app--map {
+    background-color: purple;
+}
+.start-panel__grid .app--pacman {
+    background-color: olive;
+}
+.start-panel__grid .app--word::before {
+    content: "\eae1";
+}
+.start-panel__grid .app--excel::before {
+    content: "\eae2";
+}
+.start-panel__grid .app--chrome::before {
+    content: "\ead9";
+}
+.start-panel__grid .app--opera::before {
+    content: "\eade";
+}
+.start-panel__grid .app--edge::before {
+    content: "\eadc";
+}
+.start-panel__grid .app--music::before {
+    content: "\e910";
+}
+.start-panel__grid .app--pacman::before {
+    content: "\e916";
+}
+.start-panel__grid .app--map::before {
+    content: "\e94c";
+}
